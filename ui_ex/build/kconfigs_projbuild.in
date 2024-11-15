@@ -1,0 +1,7 @@
+source "/home/dj/Documents/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/dj/Documents/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/home/dj/Documents/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/dj/Documents/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/dj/Documents/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/dj/Documents/Developing-IoT-Projects-with-ESP32-2nd-edition-main-new/components/bsp/Kconfig.projbuild"
+source "/home/dj/Documents/Developing-IoT-Projects-with-ESP32-2nd-edition-main-new/components/esp-sr/Kconfig.projbuild"
