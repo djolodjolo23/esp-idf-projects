@@ -1,25 +1,39 @@
-
+# Ignore build directories everywhere
+build/
 **/build/
 
+# Ignore VSCode settings folders
+.vscode/
 **/.vscode/
 
-**/*.tmp
-**/*.log
+# Ignore temporary and log files
+*.tmp
+*.log
 
+# Ignore compiled binaries and intermediate files
+*.bin
+*.elf
+*.o
+*.out
 
-**/*.bin
-**/*.elf
+# Ignore managed components and custom components folders
+managed_components/
+components/
 **/managed_components/
 **/components/
 
-**/*~
+# Ignore backup and temporary files
+*~
+*.swp
 
+# Ignore virtual environments
+venv/
+.venv/
 **/venv/
 **/.venv/
 
-**/CMakeFiles/
-**/CMakeCache.txt
-**/cmake_install.cmake
+# Ignore CMake-related files and folders
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
 
-**/.pio/
-**/.ccls-cache/
